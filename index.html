@@ -37,7 +37,7 @@
       };
 
       // Send the comment data to Google Sheets using the Google Sheets API
-      fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Sheet1?valueInputOption=RAW`, {
+      fetch(`https://sheets.googleapis.com/spreadsheets/d/${SPREADSHEET_ID}/values/Sheet1?valueInputOption=RAW`, {
         method: 'POST',
         headers: {
           'Authorization': `Bearer ${API_KEY}`,
@@ -63,7 +63,7 @@
 
     function loadComments() {
       // Fetch comments from Google Sheets using the Google Sheets API
-      fetch(`https://sheets.googleapis.com/v4/spreadsheets/${SPREADSHEET_ID}/values/Sheet1`, {
+      fetch(`https://sheets.googleapis.com/spreadsheets/d/${SPREADSHEET_ID}/values/Sheet1`, {
         headers: {
           'Authorization': `Bearer ${API_KEY}`
         }
