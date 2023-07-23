@@ -19,6 +19,14 @@
   <div id="comments-container"></div>
 
   <script>
+    app.use((req, res, next) => {
+    res.setHeader("Access-Control-Allow-Origin", *);
+    res.header(
+        "Access-Control-Allow-Headers",
+        "Origin, X-Requested-With, Content-Type, Accept"
+      );
+      next();
+    });
     const SPREADSHEET_ID =  '1uen4iWMdljO1YxzwAmLsi7bdfBE9Ah_qwrBbdRtptIk';
     const API_KEY = 'AIzaSyBDGL5m129y7EI8_urEc0mLSoxl53s_v2A';
 
