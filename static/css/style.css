@@ -3,7 +3,7 @@ body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
 }
-
+/* 34b7a7 */
 a {
   color: #34b7a7;
   text-decoration: none;
@@ -104,7 +104,7 @@ h6 {
 }
 
 /*--------------------------------------------------------------
-# Header
+# Header#e9e8e6
 --------------------------------------------------------------*/
 #header {
   background: #e9e8e6;
@@ -173,12 +173,12 @@ h6 {
 }
 
 .header-social-links a {
-  color: #6f6f6f;
+  color: #6d4a82;
   padding-left: 6px;
   display: inline-block;
   line-height: 0px;
   transition: 0.3s;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 .header-social-links a:hover {
@@ -216,7 +216,7 @@ h6 {
   font-family: "Raleway", sans-serif;
   font-size: 15px;
   font-weight: 600;
-  color: #888888;
+  color: #936565;
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -553,7 +553,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 1120px;
+  width: 100%;
   height: 3px;
   background: #34b7a7;
   bottom: 0;
@@ -566,11 +566,12 @@ section {
   top: -320px;
   text-align: justify;
   left: 520px;
-  max-width: 600px;
+  max-width: 60%;
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
   font-weight: 500;
+ 
 }
 .section-title span {
   margin-bottom: 0;
@@ -623,7 +624,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 1120px;
+  width: 100%;
   height: 3px;
   background: #34b7a7;
   bottom: 0;
@@ -636,7 +637,7 @@ section {
   top: -540px;
   text-align: justify;
   left: 0px;
-  max-width: 600px;
+  max-width: 60%;
   position: relative;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   font-size: 16px;
@@ -661,8 +662,8 @@ section {
   margin-bottom: 0;
   position: relative;
   top: -380px;
-
-  left: 700px;
+  
+  left: 80%;
   max-width: 480px;
 
 }
@@ -697,7 +698,7 @@ section {
   content: "";
   position: absolute;
   display: block;
-  width: 1120px;
+  width: 100%;
   height: 3px;
   background: #34b7a7;
   bottom: 0;
@@ -1606,10 +1607,10 @@ section {
 }
 
 .container1 {
-  background-color: #f1f1f1;
+  background-color: #d3d0d0;
   padding: 20px;
   margin-top: 150px;
-  width: 1120px;
+  width: 90%;
   margin-left: 100px;
 }
 
@@ -1617,7 +1618,7 @@ section {
   font-weight: bold;
   margin: 0;
   width: 100vb;
-  width: 1120px;
+  width: 90%;
   font-size: 32px;
 
 }
@@ -1675,6 +1676,7 @@ section {
   line-height: 1.5;
   margin-top: 20px;
   text-align: justify;
+  width: auto;
 
 }
 
@@ -1687,26 +1689,27 @@ section {
   font-size: 24px;
   margin: 10px 0;
   margin-left: 100px;
-  width: 500px;
+  
  
 }
 
 .container3 img{
-  margin-left: 630px;
-  width: 550px;
-  height: 500px;
+  margin-left: 65%;
+  width: 400px;
+  height: 400px;
   margin-top: -480px;
+  
 
 
 }
 .container3 p {
   margin: 10px 0;
   margin-left: 100px;
-  width: 500px;
+  width: 55%;
   text-align: justify;
 }
 .container7{
-  margin: 20px 0;
+  margin-left: 20%;
 }
 .container7 p {
   margin: 10px 0;
@@ -1727,7 +1730,7 @@ section {
   font-size: 24px;
   margin: 10px 0;
   margin-left: 100px;
-  width: 500px;
+  width: 40%;
  
 }
 
@@ -1741,14 +1744,15 @@ section {
 .container4 p {
   margin: 10px 0;
   margin-left: 100px;
-  width: 500px;
+  width: 40%;
   text-align: justify;
 }
 
 
 .container5 {
-  margin: 10px 0;
-  margin-top: -710px;
+  margin-left: 8%;
+  margin-top: -580px;
+  
   padding-bottom: 100px;
 }
 
@@ -1756,7 +1760,7 @@ section {
   font-size: 24px;
   margin: 10px 0;
   margin-left: 650px;
-  width: 500px;
+  width: 40%;
 
  
 }
@@ -1771,11 +1775,39 @@ section {
 .container5 p {
   margin: 10px 0;
   margin-left: 650px;
-  width: 550px;
+  width: 43%;
   text-align: justify;
 }
 
+.container51 {
+  margin-left: 8%;
+  margin-top: -870px;
+  
+  padding-bottom: 100px;
+}
 
+.container51 h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  margin-left: 650px;
+  width: 40%;
+
+ 
+}
+
+.container51 img{
+  margin-left: 300px;
+  width: 500px;
+  height: 600px;
+
+
+}
+.container51 p {
+  margin: 10px 0;
+  margin-left: 650px;
+  width: 43%;
+  text-align: justify;
+}
 
 .container6 {
   margin: 80px 0; 
