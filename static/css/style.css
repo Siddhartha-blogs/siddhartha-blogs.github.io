@@ -1581,6 +1581,7 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+@media only screen and (min-width: 1024px) {
 .article .content h3 {
   font-weight: 700;
   font-size: 26px;
@@ -1832,15 +1833,21 @@ section {
 
   
 }
-@media (max-width: 768px) {
+}
+
+
+/* Mobile Styles */
+@media (max-width: 752px) {
   .article .content h3 {
     font-size: 20px;
   }
 
   .container1 {
+    background-color: #d3d0d0;
     margin-left: 10px;
     width: 100%;
-    margin-top: 50px;
+    margin-top: 200px;
+
   }
 
   .title {
@@ -1848,8 +1855,8 @@ section {
   }
 
   .author img {
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     margin-left: 10px;
   }
 
@@ -1889,6 +1896,7 @@ section {
     margin-left: 0;
   }
 }
+
 
 .comment {
   display: flex;
