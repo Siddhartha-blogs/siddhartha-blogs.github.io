@@ -1832,6 +1832,63 @@ section {
 
   
 }
+@media (max-width: 768px) {
+  .article .content h3 {
+    font-size: 20px;
+  }
+
+  .container1 {
+    margin-left: 10px;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .title {
+    font-size: 24px;
+  }
+
+  .author img {
+    width: 60px;
+    height: 60px;
+    margin-left: 10px;
+  }
+
+  .author-bio {
+    margin-left: 10px;
+    width: auto;
+  }
+
+  .container3 img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .container3 p {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .container4 img,
+  .container5 img,
+  .container51 img {
+    width: 100%;
+    height: auto;
+    margin-left: 0;
+  }
+
+  .container4 p,
+  .container5 p,
+  .container51 p {
+    margin-left: 10px;
+    width: 90%;
+  }
+
+  .container6 iframe {
+    width: 100%;
+    margin-left: 0;
+  }
+}
 
 .comment {
   display: flex;
