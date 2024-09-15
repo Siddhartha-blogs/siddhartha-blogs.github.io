@@ -184,7 +184,33 @@ h6 {
 .header-social-links a:hover {
   color: #34b7a7;
 }
+@media (max-width: 700px) {
+  #header .logo {
+    font-size: 32px;
+  }
 
+
+/*--------------------------------------------------------------
+# Header Social Links
+--------------------------------------------------------------*/
+.header-social-links {
+  padding-right: 5px;
+  margin-left: 50%;
+}
+
+.header-social-links a {
+  color: #6d4a82;
+  padding-left: 6px;
+  display: inline-block;
+  line-height: 0px;
+  transition: 0.3s;
+  font-size: 10px;
+}
+
+.header-social-links a:hover {
+  color: #34b7a7;
+}
+}
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -587,6 +613,7 @@ section {
   
 
 }
+
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -668,6 +695,13 @@ section {
 
 }
 
+@media (max-width:600px){
+  section {
+  max-width: 90%;
+
+  }
+  
+}
 /*--------------------------------------------------------------
 # Sections General part3
 --------------------------------------------------------------*/
@@ -1839,7 +1873,7 @@ section {
 /* Mobile Styles */
 @media (max-width: 752px) {
   .article .content h3 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .container1 {
@@ -1855,25 +1889,45 @@ section {
   }
 
   .author img {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    margin-left: 12px;
   }
 
   .author-bio {
     margin-left: 10px;
     width: auto;
+    font-size: 8px;
+    margin-top:5px;
   }
 
-  .container3 img {
-    width: 100%;
-    height: auto;
-    margin-left: 0;
+  .author-bio h3 {
+    font-size: 8px;
+    margin: 0;
   }
+  .author-bio h4 {
+    font-size: 8px;
+    margin: 0;
+  }
+  .text {
+    margin:10px;
+    text-align: justify;
+    max-width: 90%;
+    
+
+  }
+  .container3 img {
+    width: 80%;
+    height: auto;
+    margin-left: 10%;
+
+  }
+
 
   .container3 p {
     margin-left: 10px;
     width: 90%;
+    text-align: justify;
   }
 
   .container4 img,
@@ -1881,7 +1935,17 @@ section {
   .container51 img {
     width: 100%;
     height: auto;
-    margin-left: 0;
+    margin-left: 10px;
+    margin-top:10px;
+  }
+
+  .container4 h2,
+  .container5 h2,
+  .container51 h2 {
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+    margin-top:10px;
   }
 
   .container4 p,
@@ -1889,11 +1953,13 @@ section {
   .container51 p {
     margin-left: 10px;
     width: 90%;
+    margin-top:10px;
+    text-align: justify;
   }
 
   .container6 iframe {
     width: 100%;
-    margin-left: 0;
+    margin-right: 10px;
   }
 }
 
@@ -1902,7 +1968,7 @@ section {
   display: flex;
   border: 1px solid #ddd;
   margin-bottom:20px;
-  margin-left: 120px;
+  margin-left: 20%;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   
   
