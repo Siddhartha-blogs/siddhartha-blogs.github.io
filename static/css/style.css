@@ -1923,7 +1923,11 @@ section {
 
   }
 
-
+  .container3 h2 {
+    margin-left: 10px;
+    width: 90%;
+    text-align: justify;
+  }
   .container3 p {
     margin-left: 10px;
     width: 90%;
